@@ -1,0 +1,34 @@
+<dotnetnuke version="5.0" type="Package" xmlns:fo="http://www.w3.org/1999/XSL/Format">
+  <packages>
+    <package name="ActionForm.DnnJournal" type="Module" version="01.00.03">
+      <friendlyName>ActionForm.DnnPageActions</friendlyName>
+      <description>Integrates with DNN Journal.</description>
+      <iconFile>images/icon_dashboard.png</iconFile>
+      
+      <owner>
+        <name>DNN Sharp</name>
+        <organization>DNN Sharp</organization>
+        <url>http://www.dnnsharp.com/dnn/modules/action-form-builder/page-actions</url>
+        <email>support@dnnsharp.com</email>
+      </owner>
+
+      <dependencies>
+        <dependency type="CoreVersion">06.02.00</dependency>
+        <dependency type="Package">Action Form</dependency>
+      </dependencies>
+      
+      <components>
+
+        <component type="ResourceFile">
+          <resourceFiles>
+            <basePath>/</basePath>
+            <resourceFile>
+              <name>Resources.zip</name>
+            </resourceFile>
+          </resourceFiles>
+        </component>
+  
+      </components>
+    </package>
+  </packages>
+</dotnetnuke>
